@@ -1,0 +1,56 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>生日祝福</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        .birthday-cards {
+            text-align: center;
+        }
+        .birthday-message {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .music-link {
+            font-size: 1em;
+            color: #d63447;
+            text-decoration: none;
+        }
+        .music-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="birthday-cards">
+        <div class="birthday-message">
+            ?? 生日快乐！??
+        </div>
+        <div>
+            点击下面的链接，为你的生日播放一首快乐的音乐：
+            <a href=" " target="_blank" class="music-link">
+                听生日歌
+            </a >
+        </div>
+    </div>
+
+    <!-- 背景音乐 -->
+    <audio autoplay loop>
+        <source src="https://music.163.com/#/playlist?id=168284617" type="audio/mpeg">
+        您的浏览器不支持自动播放音频。
+    </audio>
+</body>
+</html>
+```
+
